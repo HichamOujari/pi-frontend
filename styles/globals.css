@@ -1,0 +1,27 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family:Inter;
+}
+
+.providerComponent{
+  position: absolute;
+  top: 80px;
+  left: 300px;
+  width: Calc(100% - 300px);
+  height:Calc(100% - 80px);
+}

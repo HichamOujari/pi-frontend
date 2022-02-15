@@ -1,0 +1,145 @@
+.SignIncontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+
+
+.SignIncontent>.leftSide{
+    width:45%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.SignIncontent>.leftSide>.logo{
+    width:30%;
+    height:70px;
+    min-width: 200px;
+    margin-bottom: 0px;
+}
+.SignIncontent>.leftSide>.title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.SignIncontent>.leftSide>.usingGoogle{
+    width: 80%;
+}
+
+.SignIncontent>.leftSide>.usingGoogle>.soustitle{
+    font-size: 14px;
+    text-align: left;
+}
+.SignIncontent>.leftSide>.usingGoogle>.loginGoogle{
+    display:flex;
+    align-items: center;
+    border:1px solid gray;
+    width:200px;
+    padding-left: 10px;
+    height:40px;
+    border-radius:20px;
+    cursor: pointer;
+    transition: 0.5s;
+    transform-origin: all;
+}
+.SignIncontent>.leftSide>.usingGoogle>.loginGoogle:hover{
+    background:black;
+    color:white;
+}
+
+.SignIncontent>.leftSide>.usingGoogle>.loginGoogle>i{
+    margin-right: 10px;
+
+}
+.SignIncontent>.leftSide>.usingGoogle>.loginGoogle>p{
+    font-size: 17px;
+}
+
+.SignIncontent>.leftSide>.otherr{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%
+}
+
+.SignIncontent>.leftSide>.otherr>.first,.SignIncontent>.leftSide>.otherr>.third{
+    height:2px;
+    width:30%;
+    background:gray;
+}
+
+.SignIncontent>.leftSide>.otherr>.second{
+    font-size: 17px;
+}
+
+.SignIncontent>.leftSide>.form_{
+    width:80%;
+}
+.SignIncontent>.leftSide>.form_>.groupInput{
+    width:100%;
+    margin-bottom: 20px;
+
+}
+.SignIncontent>.leftSide>.form_>.groupInput>p{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.SignIncontent>.leftSide>.form_>.groupInput>input{
+    height:30px;
+    width:100%;
+}
+
+.SignIncontent>.leftSide>.form_>.forgetPassword{
+    width:100%;
+    text-align: right;
+    color:#2F80ED;
+    font-weight: 700;
+}
+
+.SignIncontent>.leftSide>.form_>.forgetPassword>a{
+
+}
+.SignIncontent>.leftSide>.form_>.btnsubmit{
+    margin-top: 20px;
+    width:100%;
+}
+.SignIncontent>.leftSide>.form_>.btnsubmit>button{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:100%;
+    border:none;
+    cursor:pointer;
+    background-color: #006DD1;
+    color: #fff;
+}
+
+.SignIncontent>.leftSide>.dontHaveAccount{
+    width:80%;
+    display: flex;
+    align-items: center;
+}
+
+.SignIncontent>.leftSide>.dontHaveAccount>p{
+
+}
+.SignIncontent>.leftSide>.dontHaveAccount>a{
+    margin-left: 10px;
+    color: #006DD1;
+}
+
+
+.SignIncontent>.rightSide{
+    width:55%;
+    height:100%;
+}

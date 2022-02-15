@@ -1,0 +1,55 @@
+.NewProductComponent{
+    height: 100%;
+    width: 100%;
+}
+.NewProductComponent>.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.NewProductComponent>.formProduct{
+    margin-top: 80px;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+
+.NewProductComponent>.formProduct>input[type=text]{
+    width:40%;
+    margin-left: 5%;
+    height:30px;
+    font-size: 17px;
+}
+.NewProductComponent>.formProduct>input:first-child{
+    margin-right: 5%;
+}
+.NewProductComponent>.formProduct>select{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 5%;
+    height:30px;
+    margin-bottom: 30px;
+    
+}
+.NewProductComponent>.formProduct>textarea{
+    width:90%;
+    margin-left: 5%;
+    height:60px;
+    margin-bottom: 30px;
+}
+
+.NewProductComponent>.formProduct>input[type=submit]{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    background-color: green;outline:none;
+    color: #fff;
+    cursor:pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+

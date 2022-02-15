@@ -1,0 +1,56 @@
+.DashboardCard{
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.315);
+    display: flex;
+    flex-direction: column;
+}
+
+.DashboardCard>.upSide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DashboardCard>.upSide>.iconSide{
+    background: #2F80ED;
+    width:100px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DashboardCard>.upSide>.iconSide>i{
+    font-size: 40px;
+    color: white;
+}
+.DashboardCard>.upSide>.rightSide{
+    width:170px;
+    padding-left: 20px;
+}
+.DashboardCard>.upSide>.rightSide>.title{
+    color: #6B7280 !important;
+}
+.DashboardCard>.upSide>.rightSide>.val{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cgreen{
+    color: green;
+}
+.cred{
+    color: red;
+}
+.DashboardCard>.upSide>.rightSide>.val>sub{
+    font-size: 15px;
+}
+.DashboardCard>.bottomSide{
+    width:100%;
+    background:#F9FAFB;
+}
+.DashboardCard>.bottomSide>p{
+    color:#2F80ED;
+    margin-left: 20px;
+    cursor:pointer;
+}

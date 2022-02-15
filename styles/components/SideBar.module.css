@@ -1,0 +1,108 @@
+.menuBar{
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menuBar>.sidebar {
+    position: absolute;
+    top: 0;left: 0;
+    width: 300px;
+    border-right: 1px solid rgb(175, 174, 174);
+    padding-right: 10px;
+    height: 100vh;
+}
+.menuBar>.sidebar>.logo{
+    margin-top: 20px;margin-left: 12%;
+}
+.menuBar>.sidebar>.content{
+    list-style: none;
+    width: 100%;
+    margin-top: 20px;
+}
+.menuBar>.sidebar>.content>li{
+    height:70px;
+    cursor:pointer;
+}
+.menuBar>.sidebar>.content>li>div{
+    font-size:20px;
+    display:flex;
+    align-items: center;
+    padding-left: 20%;
+    transition: 0.5s;
+    transform-origin: all;
+}
+
+
+.sideBarElementActive, .menuBar>.sidebar>.content>li>div:hover{
+    background:#F3F4F6;
+}
+.menuBar>.sidebar>.content>li>div>i{
+    margin-right: 10px;
+}
+
+.menuBar>.sidebar>.content>li>div>p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #111827;
+    
+}
+.menuBar>.upbar {
+    position: absolute;
+    top: 0;
+    left: 301px;
+    width: Calc(100% - 300px);
+    z-index: 200;
+}
+
+.menuBar>.upbar>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;margin-left: 5%;
+    border-bottom: 1px solid rgba(107, 107, 107, 0.473);
+    padding-top: 10px;padding-bottom: 10px;
+}
+
+
+.menuBar>.upbar>div>i {
+    width:30px;
+}
+
+.menuBar>.upbar>div>input {
+    width:Calc(100% - 130px);
+    border: 1px solid transparent;
+    outline: none;
+}
+.menuBar>.upbar>div>.iconsRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+.menuBar>.upbar>div>.iconsRight>.notifyIcon {
+    width:30px;height:30px;
+    background:rgba(59, 56, 56, 0.2);
+    border-radius: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+.menuBar>.upbar>div>.iconsRight>.notifyIcon>i {   
+    
+}
+
+.menuBar>.upbar>div>.iconsRight>img {
+    width:30px;height:30px;
+    border-radius: 100%;
+    margin-left: 10px;
+    cursor:pointer;
+}
